@@ -13,7 +13,6 @@ CMD_SYNC="sync"
 LOG="--log-level"
 LOGLEVEL="debug"
 FORMAT="md_frontmatter"
-NOTEBOOK="TUTORIAL"
 NOTEBOOK=""
 ARGS=["--format","--notebook"]
 
