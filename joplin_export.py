@@ -36,7 +36,6 @@ def rmContents(pth):
     for f in files:
         if os.path.isfile(f):
             print(f)
-            # os.remove(f)
             ff=pathlib.PureWindowsPath(f)
             f.unlink()
     remove_folder_contents(pth)
@@ -45,7 +44,7 @@ if PATH.exists():
     PATH.lstat()
     print("the path exists")
     rmContents(PATH)
-        # shutil.rmtree(PATH)
+
 else:
     PATH.mkdir()
 
